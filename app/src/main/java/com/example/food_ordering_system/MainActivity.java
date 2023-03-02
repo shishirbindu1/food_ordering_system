@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             choices = choices + "pastry"+ "\n";
             price = price +80;
         }
-    }
+    }   
 
     public void placeOrder(View view){
 

@@ -4,6 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".OrderDetail">
 
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_weight="1"
+        android:text="Orders"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+    
+    <TextView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="items"
+        android:layout_marginBottom="60dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/priceView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="60dp"
+        android:hint="price "
+        android:textSize="15sp"
+        />
 </LinearLayout>
