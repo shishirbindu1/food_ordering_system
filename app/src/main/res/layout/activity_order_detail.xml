@@ -21,9 +21,10 @@
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="300dp"
+        android:textColor="@color/material_dynamic_primary0"
         android:hint="items"
         android:layout_marginBottom="60dp"
-        android:textSize="15sp"
+        android:textSize="20sp"
         />
 
     <TextView
@@ -32,6 +33,8 @@
         android:layout_height="30dp"
         android:layout_marginBottom="60dp"
         android:hint="price "
-        android:textSize="15sp"
+        android:textColor="@color/material_dynamic_primary0"
+        android:textAlignment="center"
+        android:textSize="20sp"
         />
 </LinearLayout>
